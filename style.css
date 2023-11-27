@@ -61,3 +61,17 @@ li{
 h4{
     color: rgb(84, 84, 134);
 }
+.language li{
+    flex-direction: column;
+}
+.language li span{
+    color: #333;
+    font-size: 16px;
+    font-weight: 500px;
+}
+.language .persent{
+    position: relative;
+    width: 100%;
+    background: #fcfdff;
+    height: 6px;
+}
