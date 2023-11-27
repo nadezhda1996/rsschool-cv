@@ -10,6 +10,8 @@ h1{
 img{
     border-radius: 100%;
     object-fit:cover;
+    width:200px;
+    height:200px;
 }
 
 body{
@@ -57,7 +59,4 @@ li{
     flex-direction: column;
     margin: 25px 0;
     list-style: none;
-}
-h4{
-    color: rgb(84, 84, 134);
 }
