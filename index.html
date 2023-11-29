@@ -1,27 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Название страницы</title>
-        <link rel="stylesheet" href="style.css">
-      </head>
-      <body>
-        <header>
-            <div class="top">
-                <img src="image.jpg" width="200px" height="200px" alt="my photo">
+<head>
+    <meta charset="UTF-8">
+    <link rel="favicon" href="favicon/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    Verification: 27f014e3637b4aaa
+    <header>
+        <nav>
+            <img class="logo" src="./images/logo.png" alt="logo">
+            <ul class="nav-list">
+                <li><a href="#fav-coffee">Favorite coffee</a> </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#mobilе">Mobile app</a></li>
+                <li><a href="#contacts">Contact us</a></li>
+                <li class="menu"> <a href="menu.html">Mеnu </a>
+                <a href="#"><img src="./images/coffee-cup.png" alt="coffee image"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="enjoy">
+        <div class="text">
+            <h1 class="head"><span class="browntext"> Enjoy</span> premium coffee at our charming cafe</h1>
+            <p>With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+            <button class="btn">Mеnu 
+                <img class="hidden-icn" src="./images/coffee-cup.png" alt="coffee image">
+            </button>
+        </div>
+        <img class="center" src="./images/img-hero.jpg" alt="block">
+    </div>
+    <div class="Favourites-Coffee">
+        <h4 id="fav-coffee">Choose your<span class="browntext">favorite </span>coffee</h4>
+            <div class="image-coffee">
+                <svg class="pointer" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#665F55"/>
+                    <path d="M36.5 30H24M24 30L30 24M24 30L30 36" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                <img src="./images/coffee-slider-1.png" alt="image">
+                <svg class="pointer" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#665F55"/>
+                    <path d="M24 30H36.5M36.5 30L30.5 24M36.5 30L30.5 36" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                 
             </div>
-          <nav>
-            <h1>Krivonozhkina Nadezhda. Project Manager </h1>
-          </nav>
-        </header>
-        <main>
-            <div class="education">
-                <h4>MOSCOW STATE UNIVERSITY , 2019 - 2021 </h4>
-                <p>M.Sc. Faculty of Foreign Languages and Area Studies. Linguistics</p>
+            <div class="Frappu-div">
+                <h3>S’mores Frappuccino </h3>
+                <p>This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+                <h3>$5.50</h3>
+                <img class="first-point" src="./images/control.png" alt="image">
+                <img src="./images/control-light.png" alt="image">
+                <img src="./images/control-light.png" alt="image">
             </div>
-        </main>
-        <footer>
-          <p>Жду обращений!</p>
-        </footer>
-      </body>
-    </html>
+        </div>
+        <div id="about">
+            <h2>Resource is the<span class="browntext">perfect and cozy place </span>where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
+            <div class="container">
+                <div class="big-images cont">
+                    <img class="item-1" src="./images/about-1.jpg" alt="image">
+                </div>
+                <div class="big-images cont2">
+                    <img class="item-2" src="./images/about-2.png" alt="image">
+                </div>
+                <div class="big-images cont2">
+                    <img class="item-3" src="./images/about-3.jpg" alt="image">
+                </div>
+                <div class="big-images cont">
+                    <img class="item-4" src="./images/about-4.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+        <div id="mobile">
+            <div class="textmobile">
+                <h2><span class="browntext">Download</span> our apps <br/>to start ordering</h2>
+                <p>Download the Resource app today and experience the comfort of ordering your <br/>favorite coffee from wherever you are</p>
+                <div class="btn-mobile">
+                    <div class="in-the-button">
+                        <button class="btn2">
+                            <img src="./images/apple.png" alt="Apple image">
+                            <img class="hidden-icn" src="./images/light-apple.png" alt="Apple image">
+                            <span class="lil letters">Available on the<br/><span class="lil words">App Store</span></span>
+                        </button>
+                    </div>
+                    <div class="in-the-button">
+                        <button class="btn2">
+                            <img src="./images/play.png" alt="Google play image">
+                            <img class="hidden-icn" src="./images/google-play-light.png" alt="Google image">
+                            <span class="lil letters">Available on <br/>
+                            <span class="lil words">Google play</span></span>
+                        </button>
+                   </div>
+                </div>
+            </div>
+        <img class="mobile" src="mobile-screens.png" alt="mobile images">
+    </div>
+    </main>
+    <footer>
+        <div id="contacts" >
+            <div class="grid v1">
+                <h1>Sip, Savor, Smile.<br/> <span class="browntext">It’s coffee time!</span></h1>
+                <svg class="img-end" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#C1B6AD"/>
+                    <path d="M41 21.0101C41 21.0101 38.9821 22.2022 37.86 22.5401C37.2577 21.8476 36.4573 21.3567 35.567 21.134C34.6767 20.9112 33.7395 20.9673 32.8821 21.2945C32.0247 21.6218 31.2884 22.2045 30.773 22.9638C30.2575 23.7231 29.9877 24.6224 30 25.5401V26.5401C28.2426 26.5856 26.5013 26.1959 24.931 25.4055C23.3607 24.6151 22.0103 23.4487 21 22.0101C21 22.0101 17 31.0101 26 35.0101C23.9405 36.408 21.4872 37.109 19 37.0101C28 42.0101 39 37.0101 39 25.5101C38.9991 25.2315 38.9723 24.9537 38.92 24.6801C39.9406 23.6735 41 21.0101 41 21.0101Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                <svg class="img-end" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#C1B6AD"/>
+                    <path d="M30 34C32.2091 34 34 32.2091 34 30C34 27.7909 32.2091 26 30 26C27.7909 26 26 27.7909 26 30C26 32.2091 27.7909 34 30 34Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 34V26C21 23.2386 23.2386 21 26 21H34C36.7614 21 39 23.2386 39 26V34C39 36.7614 36.7614 39 34 39H26C23.2386 39 21 36.7614 21 34Z" stroke="#E1D4C9"/>
+                    <path d="M35.5 24.51L35.51 24.4989" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>   
+                <svg class="img-end" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#C1B6AD"/>
+                    <path d="M35 20H32C30.6739 20 29.4021 20.5268 28.4645 21.4645C27.5268 22.4021 27 23.6739 27 25V28H24V32H27V40H31V32H34L35 28H31V25C31 24.7348 31.1054 24.4804 31.2929 24.2929C31.4804 24.1054 31.7348 24 32 24H35V20Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="grid v2">
+                <h2>Contact us</h2>
+                <ul>
+                    <li><a href="https://www.google.com/maps/place/%D0%9A%D0%B8%D0%BD%D0%BE%D1%82%D0%B5%D0%B0%D1%82%D1%80+%D0%A0%D0%B0%D0%BA%D0%B5%D1%82%D0%B0/@53.889576,27.583654,13.66z/data=!4m19!1m12!4m11!1m6!1m2!1s0x46cfe24eec6b59bb:0xa5ba484c703cfdf3!2z0J7RgNGI0LA!2m2!1d30.4251007!2d54.51256!1m3!2m2!1d34.793992!2d50.906!3m5!1s0x46dbce2d906e83f1:0xba80f8bf50f916d0!8m2!3d53.8859954!4d27.5873827!16s%2Fg%2F1hc1ms4v_?hl=ru&entry=ttu" style="background-color: transparent; margin: 0; color: #C1B6AD;"><img class="img-end v2" src="./images/pin-alt.png" alt="location img">8558 Green Rd.,  LA</a></li>
+                    <li><img class="img-end v2" src="./images/phone.png" alt="phone img"> +1 (603) 555-0123</li>
+                    <li><img class="img-end v2"  src="./images/clock.png" alt="clock img"> Mon-Sat: 9:00 AM – 23:00 PM</li>
+                </ul>
+                </div>
+            </div> 
+        </div> 
+    </footer>
+</body>
+</html>
